@@ -2,7 +2,7 @@
 import { StyleSheet, Text, View, TextInput, Button,} from 'react-native';
 import { useState } from 'react';
 
-export default function Arvaus() {
+export default function Laskin() {
 
     const [tulos, setTulos] = useState("");
     const [luku1, setLuku1] = useState("");

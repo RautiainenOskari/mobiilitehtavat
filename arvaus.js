@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View, TextInput, Button, Alert } from "react-native";
 import { useState } from "react";
 
-export default function Laskin() {
+export default function Arvaus() {
   const [guess, setGuess] = useState("");
   const [number, setNumber] = useState(Math.floor(Math.random() * 100) + 1);
 
